@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Elements examples with different locators</title>
+</head>
+
+<body>
+
+  <!-- Example of different elements with name attribute -->
+  <h1 role="heading" aria-level="1" class="main-heading">HTML Elements examples with different locators</h1>
+  <h2 role="heading">H2 Heading Example Details</h2>
+  <details role="group">
+    <summary>More Info</summary>
+    <p role="note">This is additional information that is hidden by default.</p>
+  </details>
+  <h3 role="heading">H3 Heading Example</h3>
+  <h4 role="heading">H4 Heading Example</h4>
+  <aside>
+    This is an aside, often used for sidebars.
+  </aside>
+  <h5 role="heading">H5 Heading Example</h5>
+  <h6 role="heading">H6 Heading Example</h6>
+
+  <audio role="audio" controls>
+    <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <br><br>
+  <video controls>
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <br><br>
+  <hr>
+
+  <img role="img" src="https://via.placeholder.com/150" alt="Placeholder image">
+  <br><br>
+
+  <a href="#">This is a link</a>
+  <br><br>
+
+  <section id="section2" role="region">
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+    </dl>
+
+    <strong>Strong text</strong>
+</section>
+
+
+  <form name="testForm" role="form">
+
+    <!-- Input fields -->
+    <label for="first_name">First Name:</label>
+    <input type="text" id="first_name" name="first_name" class="fname"><br><br>
+
+    <label for="last_name">Last Name:</label>
+    <input type="text" id="last_name" name="last_name" class="lname new"><br><br>
+
+    <label for="email">Email:</label>
+    <input class="emailfield ajs-3" type="email" id="email" name="email"><br><br>
+
+    <label for="phone">Phone:</label>
+    <input class="phoneno sh-8" type="tel" id="phone" name="phone"><br><br>
+
+    <label for="passwordInput">Password</label>
+    <input class="passwordip" type="password" name="passwordInput" id="password" value="Password Input"><br><br>
+
+    <label for="numberInput">Number</label>
+    <input type="number" name="numberInput" class="numfield" id="number" value="123"><br><br>
+
+    <label for="urlInput">URL</label>
+    <input class="URL" type="url" name="urlInput" id="urlInput" value="http://example.com"><br><br>
+
+    <label for="searchInput">Search</label>
+    <input class="searchfield" type="search" name="searchInput" id="searchInput" value="Search Input"><br><br>
+
+    <label for="dateInput">Date</label>
+    <input class="dateIp" type="date" name="dateInput" id="dateInput" value="2024-07-03"><br><br>
+
+    <label for="timeInput">Time</label>
+    <input class="timeIP" type="time" name="timeInput" id="timeInput" value="12:34"><br><br>
+
+    <label for="colorInput">Color</label>
+    <input class="colored-input blue large" type="color" name="colorInput" id="colorInput" value="#ff0000"><br><br>
+
+    <label for="checkboxInput">Checkbox</label>
+    <input class="lg-43 sksd fayed" type="checkbox" name="checkboxInput" id="checkboxInput" checked><br><br>
+
+    <label for="radioInput">Radio</label>
+    <input class="lg-43 sksd fayed new" type="radio" name="radioInput" id="radioInput" checked><br><br>
+
+    <label for="experience">Experience (0-10):</label>
+    <input class="lg-43 sksd fayed new range" type="range" id="experience" name="experience" min="0" max="10"
+      step="1"><br><br>
+
+    <input type="hidden" name="user_id" id="userid" value="123456">
+
+    <!-- Radio buttons -->
+    <fieldset>
+      <legend>Choose your preferred language:</legend>
+      <input class="langEnglish" role="english" type="radio" id="english" name="language" value="english">
+      <label for="english">English</label><br>
+      <input class="langFr new " type="radio" id="spanish" name="language" value="spanish">
+      <label for="spanish">Spanish</label><br>
+      <input type="radio" id="french" name="language" value="french" class="langSpanish">
+      <label for="french">French</label>
+    </fieldset>
+
+    <br><br>
+
+    <!-- Select dropdown -->
+    <label for="country">Country:</label>
+    <select class="CountryField" id="country" name="country" role="country">
+      <option value="usa">USA</option>
+      <option class="canadaTest" value="canada">Canada</option>
+      <option value="uk">UK</option>
+      <option value="germany">Germany</option>
+    </select>
+
+    <br><br>
+
+    <!-- Textarea -->
+    <label for="message">Message:</label><br>
+    <textarea role="textarea" class="textArea sm-lg" id="message" name="message" rows="4" cols="50">
+</textarea>
+
+    <br><br>
+
+    <label for="submitButton">Submit</label>
+    <input role="submitButton" class="submitButton abc sm-d-5" type="submit" name="submitButton" id="submit" value="Submit">
+
+    <label for="resetButton">Reset</label>
+    <input role="button" class="resetAll" type="reset" name="resetButton" id="reset" value="Reset"><br><br>
+
+  </form>
+
+  <table>
+    <caption>Sample Table</caption>
+    <thead>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+        </tr>
+        <tr>
+            <td role="cell">Data 3</td>
+            <td>Data 4</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Footer 1</td>
+            <td>Footer 2</td>
+        </tr>
+    </tfoot>
+</table>
+
+  <footer role="footer">
+    <p>&copy; 2024 Example Footer</p>
+  </footer>
+
+</body>
+
+</html>
